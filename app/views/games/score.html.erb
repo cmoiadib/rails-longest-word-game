@@ -1,0 +1,15 @@
+<div class="container text-center mt-5">
+  <div class="p-4 mb-4 bg-light border rounded">
+    <p class="fs-4 text-secondary">
+      <%= @return %>
+    </p>
+  </div>
+
+  <div class="mb-4">
+    <h2 class="fw-bold text-primary">Score: <%= @score %></h2>
+  </div>
+
+  <div>
+    <%= link_to "Try again!", new_path, class: "btn btn-primary px-4 py-2 rounded-pill" %>
+  </div>
+</div>
